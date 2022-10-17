@@ -2,7 +2,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
-// const path = require('path');
+const path = require('path');
 const helpers = require('./utils/helpers');
 
 const sequelize = require('./config/connection');
@@ -18,12 +18,12 @@ const sess = {
   secret: 'pinkelephants',
   cookie: {
     // Session will automatically expire in 10 minutes
-    expires: 10 * 60 * 1000
+    // expires: 10 * 60 * 1000
   },
   store: new SequelizeStore({
     db: sequelize,
-    resave: true,
-    rolling: true,
+    resave: false,
+    // rolling: true,
     saveUninitialized: true,
   }),
 };
@@ -36,7 +36,7 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(routes);
-// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 
