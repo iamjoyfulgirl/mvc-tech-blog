@@ -20,7 +20,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 
 ## Links
-Deployed Application: 
+Deployed Application: https://enigmatic-coast-39915.herokuapp.com
 GitHub Repository: https://github.com/iamjoyfulgirl/mvc-tech-blog
 
 
