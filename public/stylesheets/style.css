@@ -7,8 +7,10 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
   color: #333;
+  background-color: slategray;
 }
 
 a {
@@ -30,6 +32,12 @@ button {
   border-radius: 5px;
 }
 
+.card-body-2 {
+  font-color: white;
+  font-weight: 1000;
+  font-size: 18px;
+}
+
 .post-list {
   margin: 0;
   padding: 0;
@@ -44,11 +52,13 @@ input {
 
 textarea:focus,
 input:focus {
+  font-family: 'Inconsolata', monospace;
   outline: none;
   border: 1px solid #3486eb;
 }
 
 textarea {
+  font-family: 'Inconsolata', monospace;
   min-width: 40%;
   min-height: 100px;
 }
@@ -59,6 +69,9 @@ form > div {
 
 form label {
   display: block;
+  font-family: 'Inconsolata', monospace;
+  font-color: black;
+  font-weight: 1000;
 }
 
 .wrapper {
@@ -72,7 +85,7 @@ form label {
 
 header {
   border-bottom: 1px solid rgb(204, 204, 204);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: 1000;
   display: flex;
   justify-content: space-between;
@@ -81,11 +94,12 @@ header {
 }
 
 .h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: 1000;
 }
 
 main {
+  font-family: 'Inconsolata', monospace;
   flex: 1;
   padding: 2% 4%;
 }
@@ -142,7 +156,8 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: lightblue;
+  font-color: white;
 }
 
 .comment .meta {
@@ -166,6 +181,8 @@ footer {
 .card {
   margin-bottom: 1em;
   margin-top: 1em;
+  font-color: white;
+  font-weight: bold;
 }
 
 .rows {
