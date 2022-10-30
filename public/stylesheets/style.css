@@ -133,9 +133,11 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  font-family: 'Inconsolata', monospace;
 }
 
 .post .title span {
+  font-family: 'Inconsolata', monospace;
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
@@ -148,11 +150,13 @@ main {
 
 .comment-form {
   margin-bottom: 5%;
+  font-family: 'Inconsolata', monospace;
 }
 
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  font-family: 'Inconsolata', monospace;
 }
 
 .comment:nth-child(odd) {
@@ -168,6 +172,7 @@ main {
 
 .edit-post-form {
   margin-bottom: 5%;
+  font-family: 'Inconsolata', monospace;
 }
 
 footer {
