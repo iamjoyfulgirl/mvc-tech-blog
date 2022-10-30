@@ -81,13 +81,16 @@ router.post('/login', (req, res) => {
     }
   }).then(dbUserData => {
     if (!dbUserData) {
+      console.log('No user with that email address!');
       res.status(400).json({ message: 'No user with that email address!' });
       return;
     }
 
     const validPassword = dbUserData.checkPassword(req.body.password);
+    console.log('password', req.body.password);
 
     if (!validPassword) {
+      console.log('incorrect password');
       res.status(400).json({ message: 'Incorrect password!' });
       return;
     }
