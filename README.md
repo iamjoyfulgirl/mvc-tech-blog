@@ -21,6 +21,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Links
 Deployed Application: https://enigmatic-coast-39915.herokuapp.com
+
 GitHub Repository: https://github.com/iamjoyfulgirl/mvc-tech-blog
 
 
@@ -31,4 +32,4 @@ Questions about this project can be directed to:
 
 -----------
 
-MVC Tech Blog - Copyright 2022 Sherri Knight
+MVC Tech Blog 👩🏻‍💻 - Copyright 2022 Sherri Knight
